@@ -7,5 +7,6 @@ One of the main challenges we encountered was how to correctly align labels with
 
 After that, we applied this function during the tokenization step on our dataset. Then, we loaded the model and passed the label mappings (label-to-ID and ID-to-label) to it. Finally, we trained the model using the Trainer API provided by Hugging Face.
 
-#####################################################################################################################################################################
+
+
 Chunking, also known as shallow parsing, is a token classification task where sequences of tokens are grouped into syntactically correlated units called chunks—such as noun phrases (NP), verb phrases (VP), or prepositional phrases (PP). Each token is assigned a chunk tag (e.g., B-NP, I-NP, O) indicating its position within a phrase. Chunk tags help capture the structure of a sentence beyond individual part-of-speech tags, which is useful in various NLP applications like parsing and information extraction.
